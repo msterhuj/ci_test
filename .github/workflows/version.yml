@@ -18,6 +18,13 @@ jobs:
       - name: Git Version
         id: version
         uses: codacy/git-version@2.7.1
+        with:
+          tool-version: latest
+          release-branch: master
+          dev-branch: develop
+          minor-identifier: "feat/"
+          major-identifier: "breaking/"
+
       
       - name: Use the version
         run: |
