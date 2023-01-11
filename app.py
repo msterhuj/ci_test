@@ -1,5 +1,7 @@
 import os
 
+os.mkdir("test")
+
 def main():
     print("Im not your main")
 
