@@ -1,3 +1,5 @@
+import os
+
 def main():
     print("Im not your main")
 
